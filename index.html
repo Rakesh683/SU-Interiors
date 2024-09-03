@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SU Interiors</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">SU Interiors</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services"><i class="fas fa-cogs"></i> Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-phone-alt"></i> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Dream. Create. Live.</h1>
+            <p class="lead">2 BHK starts from ₹4.50 lakhs | 3 BHK starts from ₹7 lakhs</p>
+            <a href="#services" class="btn btn-light btn-lg">Explore Our Services</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/kitch.jpg" class="card-img-top" alt="Modular Kitchen">
+                        <div class="card-body">
+                            <h5 class="card-title">Modular Kitchen</h5>
+                            <p class="card-text">Beautifully designed modular kitchens to suit your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/tv.jpg" class="card-img-top" alt="TV Unit">
+                        <div class="card-body">
+                            <h5 class="card-title">TV Unit</h5>
+                            <p class="card-text">Modern TV units to complement your living space.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Wardrobes.jpg" class="card-img-top" alt="Wardrobes">
+                        <div class="card-body">
+                            <h5 class="card-title">Wardrobes</h5>
+                            <p class="card-text">Custom wardrobes for a well-organized home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/False Ceiling.jpg" class="card-img-top" alt="False Ceiling">
+                        <div class="card-body">
+                            <h5 class="card-title">False Ceiling</h5>
+                            <p class="card-text">Stylish false ceilings for a modern touch.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Paints & Electricians.jpg" class="card-img-top" alt="Paints & Electricians">
+                        <div class="card-body">
+                            <h5 class="card-title">Paints & Electricians</h5>
+                            <p class="card-text">High-quality paints and professional electricians.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Commercial Office Interior.jpg" class="card-img-top" alt="Commercial Office Interior">
+                        <div class="card-body">
+                            <h5 class="card-title">Commercial Office Interior</h5>
+                            <p class="card-text">Elegant interiors for your commercial space.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead">Get in touch with us to book your interior design services.</p>
+                    <p><strong>Address:</strong> Uppal, Hyderabad</p>
+                    <p><strong>Phone:</strong> <a href="tel:+919010500638">9010500638</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:sreekanth@example.com">sreekanth@example.com</a></p>
+                </div>
+                <div class="col-md-6">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 SU Interiors. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
